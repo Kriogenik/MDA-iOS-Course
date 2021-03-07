@@ -8,13 +8,7 @@
 let stepGoal = 10000    // дневная цель шагов
 let steps = 3948        // текущее количество шагов
 
-if steps < stepGoal / 2 {
-    print("Скоро половина!")
-} else {
-    print("Больше половины!")
-}
-
-
+steps < stepGoal / 2 ? print("Скоро половина!") : print("Больше половины!")
 /*:
  
  _Copyright © 2017 Apple Inc._
